@@ -20,7 +20,6 @@ router.get('/get-investor/:id', async (req, res)=>{
     // find the note to be updated and update it
     const query = { name: noSpecialCharacters };
     let Inverstor = await InvestorSignup.findOne(query);
-    console.log(noSpecialCharacters)
     if(!Inverstor){return res.status(400).send("Not Found")}
 
     res.json(Inverstor);
