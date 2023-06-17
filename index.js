@@ -8,7 +8,7 @@ const port = 5001
 
 app.use(cors())
 app.use(express.json())
-// turned on for uptimebot
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
