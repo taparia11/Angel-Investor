@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-// Available routes 
+// Available basic routes 
 app.use('/api', require('./routes/start'))
 //admin route for Investors details
 app.use('/auth/admin', require('./routes/admin'))
