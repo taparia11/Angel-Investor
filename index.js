@@ -21,6 +21,3 @@ app.use('/auth/admin', require('./routes/admin'))
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
 })
-app.listen(port, () => {
-  console.log(`Example app listening on port http://localhost:${port}`)
-})
