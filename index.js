@@ -12,7 +12,6 @@ app.use(express.json())
 //   res.send('Hello World!')
 // })
 
-// Available routes 
 app.use('/api', require('./routes/start'))
 
 app.listen(port, () => {
