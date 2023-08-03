@@ -51,6 +51,7 @@ router.post('/investor-signup', async (req, res) => {
     }
 })
 
+// ROUTE 2: fTo test the backend and API
 router.post('/testing', async (req, res) => {
 
     try {
