@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const InvestorSignup = require('../models/InvestorSignup');
 
-// ROUTE 1: Get all the notes using GET "/api/notes/fetchallnotes" Login required
+// ROUTE 1: Get all the notes using GET "/api/notes/fetchallinvestors" Login required
 router.get('/fetchallinvestors', async (req, res)=>{
     try {
         const Details = await InvestorSignup.find();
